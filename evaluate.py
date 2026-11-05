@@ -13,20 +13,24 @@ PROMPTS = {
 FIELDS = ["supplier", "invoice_number", "date", "net", "vat_rate", "vat_amount", "gross"]
 client = anthropic.Anthropic()
 os.makedirs(".cache", exist_ok=True)
+THINKING = sys.argv[3] if len(sys.argv) > 3 else "off"   # "off" or "on"
 
 def extract(text):
-    key = hashlib.md5(f"{MODEL}|{PROMPT_VERSION}|{text}".encode()).hexdigest()
+    key = hashlib.md5(f"{MODEL}|{PROMPT_VERSION}|{THINKING}|{text}".encode()).hexdigest()
     path = f".cache/{key}.json"
     if os.path.exists(path):
         return json.load(open(path))
+    extra = {"thinking": {"type": "disabled"}} if THINKING == "off" else {}
     r = client.messages.create(model=MODEL, max_tokens=1500, system=PROMPTS[PROMPT_VERSION],
-                               messages=[{"role": "user", "content": text}])
+                               messages=[{"role": "user", "content": text}], **extra)
     raw = "".join(b.text for b in r.content if b.type == "text")
+    think = "".join(getattr(b, "thinking", "") or "" for b in r.content if b.type == "thinking")
     start, end = raw.find("{"), raw.rfind("}")
     try: out = json.loads(raw[start:end + 1])
     except Exception: out = {}
-    res = {"out": out, "in_tok": r.usage.input_tokens, "out_tok": r.usage.output_tokens}
-    if out:                                   # don't cache failures, so a re-run retries them
+    res = {"out": out, "in_tok": r.usage.input_tokens, "out_tok": r.usage.output_tokens,
+           "think_chars": len(think)}
+    if out:
         json.dump(res, open(path, "w"))
     return res
 
@@ -52,3 +56,7 @@ print(f"exact match (all fields): {exact/n:.0%}")
 print(f"arithmetic check correct: {flagged/n:.0%}")
 print(f"tokens in/out total: {in_t}/{out_t}  -> per invoice: {in_t/n:.0f}/{out_t/n:.0f}")
 print("first failures:", failures[:10])
+
+PRICE_IN, PRICE_OUT = 0.10, 0.50   # USD per million tokens, Haiku 5.5, prompts up to 100k, from the pricing page (https://platform.claude.com/docs/en/about-claude/pricing)
+cost = (in_t * PRICE_IN + out_t * PRICE_OUT) / 1_000_000
+print(f"cost per 1,000 invoices: ${cost / n * 1000:.4f}")
