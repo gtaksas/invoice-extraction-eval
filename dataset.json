@@ -1,0 +1,562 @@
+[
+ {
+  "id": 1,
+  "text": "SZÁMLA / Zöld Híd Bt.\nSzámlaszám: 2026/328\nKelt: 24.01.2026\nNettó: 674 000 HUF\nÁFA (27%): 181 980 HUF\nBruttó végösszeg: 855 980 HUF",
+  "truth": {
+   "supplier": "Zöld Híd Bt.",
+   "invoice_number": "2026/328",
+   "date": "2026-01-24",
+   "net": 674000,
+   "vat_rate": 27,
+   "vat_amount": 181980,
+   "gross": 855980
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 2,
+  "text": "SZÁMLA / ACME Kft.\nSzámlaszám: 2026/323\nKelt: 2026-07-02\nNettó: 712 000 HUF\nÁFA (27%): 192 240 HUF\nBruttó végösszeg: 904 240 HUF",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/323",
+   "date": "2026-07-02",
+   "net": 712000,
+   "vat_rate": 27,
+   "vat_amount": 192240,
+   "gross": 904240
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 3,
+  "text": "SZÁMLA / Nova Studio Kft.\nSzámlaszám: 2026/703\nKelt: 2026-09-14\nNettó: 47.000 Ft\nÁFA (18%): 8.460 Ft\nBruttó végösszeg: 55.460 Ft",
+  "truth": {
+   "supplier": "Nova Studio Kft.",
+   "invoice_number": "2026/703",
+   "date": "2026-09-14",
+   "net": 47000,
+   "vat_rate": 18,
+   "vat_amount": 8460,
+   "gross": 55460
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 4,
+  "text": "Zöld Híd Bt.\nInvoice no. 2026/320\nDate: 11.07.2026\nNet: 26.000 Ft\nVAT 18%: 4.680 Ft\nTotal: 30.680 Ft",
+  "truth": {
+   "supplier": "Zöld Híd Bt.",
+   "invoice_number": "2026/320",
+   "date": "2026-07-11",
+   "net": 26000,
+   "vat_rate": 18,
+   "vat_amount": 4680,
+   "gross": 30680
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 5,
+  "text": "SZÁMLA / Pannon Print Kft.\nSzámlaszám: 2026/370\nKelt: 28.06.2026\nNettó: 409 000 HUF\nÁFA (27%): 110 430 HUF\nBruttó végösszeg: 519 430 HUF",
+  "truth": {
+   "supplier": "Pannon Print Kft.",
+   "invoice_number": "2026/370",
+   "date": "2026-06-28",
+   "net": 409000,
+   "vat_rate": 27,
+   "vat_amount": 110430,
+   "gross": 519430
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 6,
+  "text": "SZÁMLA / Duna Logisztika Zrt.\nSzámlaszám: 2026/949\nKelt: July 3, 2026\nNettó: HUF 569,000\nÁFA (27%): HUF 153,630\nBruttó végösszeg: HUF 722,630",
+  "truth": {
+   "supplier": "Duna Logisztika Zrt.",
+   "invoice_number": "2026/949",
+   "date": "2026-07-03",
+   "net": 569000,
+   "vat_rate": 27,
+   "vat_amount": 153630,
+   "gross": 722630
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 7,
+  "text": "SZÁMLA / Zöld Híd Bt.\nSzámlaszám: 2026/891\nKelt: February 2, 2026\nNettó: 390.000 Ft\nÁFA (18%): 70.200 Ft\nBruttó végösszeg: 460.200 Ft",
+  "truth": {
+   "supplier": "Zöld Híd Bt.",
+   "invoice_number": "2026/891",
+   "date": "2026-02-02",
+   "net": 390000,
+   "vat_rate": 18,
+   "vat_amount": 70200,
+   "gross": 460200
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 8,
+  "text": "Nova Studio Kft.\nInvoice no. 2026/750\nDate: 13.02.2026\nNet: 895.000 Ft\nVAT 18%: 161.100 Ft\nTotal: 1.057.100 Ft",
+  "truth": {
+   "supplier": "Nova Studio Kft.",
+   "invoice_number": "2026/750",
+   "date": "2026-02-13",
+   "net": 895000,
+   "vat_rate": 18,
+   "vat_amount": 161100,
+   "gross": 1057100
+  },
+  "arithmetic_ok": false
+ },
+ {
+  "id": 9,
+  "text": "ACME Kft.\nInvoice no. 2026/723\nDate: May 23, 2026\nNet: HUF 383,000\nVAT 18%: HUF 68,940\nTotal: HUF 451,940",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/723",
+   "date": "2026-05-23",
+   "net": 383000,
+   "vat_rate": 18,
+   "vat_amount": 68940,
+   "gross": 451940
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 10,
+  "text": "SZÁMLA / Duna Logisztika Zrt.\nSzámlaszám: 2026/755\nKelt: 15.03.2026\nNettó: HUF 766,000\nÁFA (18%): HUF 137,880\nBruttó végösszeg: HUF 903,880",
+  "truth": {
+   "supplier": "Duna Logisztika Zrt.",
+   "invoice_number": "2026/755",
+   "date": "2026-03-15",
+   "net": 766000,
+   "vat_rate": 18,
+   "vat_amount": 137880,
+   "gross": 903880
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 11,
+  "text": "Duna Logisztika Zrt.\nInvoice no. 2026/510\nDate: 2026-01-08\nNet: 721.000 Ft\nVAT 5%: 36.050 Ft\nTotal: 757.050 Ft",
+  "truth": {
+   "supplier": "Duna Logisztika Zrt.",
+   "invoice_number": "2026/510",
+   "date": "2026-01-08",
+   "net": 721000,
+   "vat_rate": 5,
+   "vat_amount": 36050,
+   "gross": 757050
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 12,
+  "text": "Nova Studio Kft.\nInvoice no. 2026/758\nDate: 21.04.2026\nNet: 600.000 Ft\nVAT 5%: 30.000 Ft\nTotal: 630.000 Ft",
+  "truth": {
+   "supplier": "Nova Studio Kft.",
+   "invoice_number": "2026/758",
+   "date": "2026-04-21",
+   "net": 600000,
+   "vat_rate": 5,
+   "vat_amount": 30000,
+   "gross": 630000
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 13,
+  "text": "Pannon Print Kft.\nInvoice no. 2026/538\nDate: 18.09.2026\nNet: HUF 162,000\nVAT 18%: HUF 29,160\nTotal: HUF 191,160",
+  "truth": {
+   "supplier": "Pannon Print Kft.",
+   "invoice_number": "2026/538",
+   "date": "2026-09-18",
+   "net": 162000,
+   "vat_rate": 18,
+   "vat_amount": 29160,
+   "gross": 191160
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 14,
+  "text": "ACME Kft.\nInvoice no. 2026/981\nDate: 2026-09-16\nNet: 244 000 HUF\nVAT 18%: 43 920 HUF\nTotal: 287 920 HUF",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/981",
+   "date": "2026-09-16",
+   "net": 244000,
+   "vat_rate": 18,
+   "vat_amount": 43920,
+   "gross": 287920
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 15,
+  "text": "Pannon Print Kft.\nInvoice no. 2026/579\nDate: 13.02.2026\nNet: HUF 183,000\nVAT 0%: HUF 0\nTotal: HUF 183,000",
+  "truth": {
+   "supplier": "Pannon Print Kft.",
+   "invoice_number": "2026/579",
+   "date": "2026-02-13",
+   "net": 183000,
+   "vat_rate": 0,
+   "vat_amount": 0,
+   "gross": 183000
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 16,
+  "text": "Duna Logisztika Zrt.\nInvoice no. 2026/887\nDate: February 22, 2026\nNet: HUF 586,000\nVAT 27%: HUF 158,220\nTotal: HUF 745,220",
+  "truth": {
+   "supplier": "Duna Logisztika Zrt.",
+   "invoice_number": "2026/887",
+   "date": "2026-02-22",
+   "net": 586000,
+   "vat_rate": 27,
+   "vat_amount": 158220,
+   "gross": 745220
+  },
+  "arithmetic_ok": false
+ },
+ {
+  "id": 17,
+  "text": "SZÁMLA / Duna Logisztika Zrt.\nSzámlaszám: 2026/612\nKelt: 2026-03-15\nNettó: 320 000 HUF\nÁFA (0%): 0 HUF\nBruttó végösszeg: 320 000 HUF",
+  "truth": {
+   "supplier": "Duna Logisztika Zrt.",
+   "invoice_number": "2026/612",
+   "date": "2026-03-15",
+   "net": 320000,
+   "vat_rate": 0,
+   "vat_amount": 0,
+   "gross": 320000
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 18,
+  "text": "SZÁMLA / Zöld Híd Bt.\nSzámlaszám: 2026/482\nKelt: 2026-09-20\nNettó: 128 000 HUF\nÁFA (5%): 6 400 HUF\nBruttó végösszeg: 134 400 HUF",
+  "truth": {
+   "supplier": "Zöld Híd Bt.",
+   "invoice_number": "2026/482",
+   "date": "2026-09-20",
+   "net": 128000,
+   "vat_rate": 5,
+   "vat_amount": 6400,
+   "gross": 134400
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 19,
+  "text": "ACME Kft.\nInvoice no. 2026/471\nDate: 2026-06-16\nNet: 817.000 Ft\nVAT 27%: 220.590 Ft\nTotal: 1.037.590 Ft",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/471",
+   "date": "2026-06-16",
+   "net": 817000,
+   "vat_rate": 27,
+   "vat_amount": 220590,
+   "gross": 1037590
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 20,
+  "text": "SZÁMLA / ACME Kft.\nSzámlaszám: 2026/878\nKelt: 24.02.2026\nNettó: HUF 266,000\nÁFA (27%): HUF 71,820\nBruttó végösszeg: HUF 337,820",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/878",
+   "date": "2026-02-24",
+   "net": 266000,
+   "vat_rate": 27,
+   "vat_amount": 71820,
+   "gross": 337820
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 21,
+  "text": "Pannon Print Kft.\nInvoice no. 2026/993\nDate: 06.09.2026\nNet: HUF 151,000\nVAT 0%: HUF 0\nTotal: HUF 151,000",
+  "truth": {
+   "supplier": "Pannon Print Kft.",
+   "invoice_number": "2026/993",
+   "date": "2026-09-06",
+   "net": 151000,
+   "vat_rate": 0,
+   "vat_amount": 0,
+   "gross": 151000
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 22,
+  "text": "Duna Logisztika Zrt.\nInvoice no. 2026/548\nDate: May 13, 2026\nNet: HUF 236,000\nVAT 18%: HUF 42,480\nTotal: HUF 278,480",
+  "truth": {
+   "supplier": "Duna Logisztika Zrt.",
+   "invoice_number": "2026/548",
+   "date": "2026-05-13",
+   "net": 236000,
+   "vat_rate": 18,
+   "vat_amount": 42480,
+   "gross": 278480
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 23,
+  "text": "SZÁMLA / Pannon Print Kft.\nSzámlaszám: 2026/667\nKelt: 2026-02-11\nNettó: 273 000 HUF\nÁFA (18%): 49 140 HUF\nBruttó végösszeg: 322 140 HUF",
+  "truth": {
+   "supplier": "Pannon Print Kft.",
+   "invoice_number": "2026/667",
+   "date": "2026-02-11",
+   "net": 273000,
+   "vat_rate": 18,
+   "vat_amount": 49140,
+   "gross": 322140
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 24,
+  "text": "ACME Kft.\nInvoice no. 2026/980\nDate: 2026-01-08\nNet: 27.000 Ft\nVAT 27%: 7.290 Ft\nTotal: 35.290 Ft",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/980",
+   "date": "2026-01-08",
+   "net": 27000,
+   "vat_rate": 27,
+   "vat_amount": 7290,
+   "gross": 35290
+  },
+  "arithmetic_ok": false
+ },
+ {
+  "id": 25,
+  "text": "SZÁMLA / Zöld Híd Bt.\nSzámlaszám: 2026/840\nKelt: August 7, 2026\nNettó: HUF 263,000\nÁFA (5%): HUF 13,150\nBruttó végösszeg: HUF 276,150",
+  "truth": {
+   "supplier": "Zöld Híd Bt.",
+   "invoice_number": "2026/840",
+   "date": "2026-08-07",
+   "net": 263000,
+   "vat_rate": 5,
+   "vat_amount": 13150,
+   "gross": 276150
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 26,
+  "text": "ACME Kft.\nInvoice no. 2026/774\nDate: 2026-07-07\nNet: 268.000 Ft\nVAT 0%: 0 Ft\nTotal: 268.000 Ft",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/774",
+   "date": "2026-07-07",
+   "net": 268000,
+   "vat_rate": 0,
+   "vat_amount": 0,
+   "gross": 268000
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 27,
+  "text": "SZÁMLA / ACME Kft.\nSzámlaszám: 2026/162\nKelt: January 22, 2026\nNettó: 440.000 Ft\nÁFA (0%): 0 Ft\nBruttó végösszeg: 440.000 Ft",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/162",
+   "date": "2026-01-22",
+   "net": 440000,
+   "vat_rate": 0,
+   "vat_amount": 0,
+   "gross": 440000
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 28,
+  "text": "Pannon Print Kft.\nInvoice no. 2026/559\nDate: 2026-04-07\nNet: 839 000 HUF\nVAT 27%: 226 530 HUF\nTotal: 1 065 530 HUF",
+  "truth": {
+   "supplier": "Pannon Print Kft.",
+   "invoice_number": "2026/559",
+   "date": "2026-04-07",
+   "net": 839000,
+   "vat_rate": 27,
+   "vat_amount": 226530,
+   "gross": 1065530
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 29,
+  "text": "Nova Studio Kft.\nInvoice no. 2026/927\nDate: 2026-04-28\nNet: HUF 305,000\nVAT 0%: HUF 0\nTotal: HUF 305,000",
+  "truth": {
+   "supplier": "Nova Studio Kft.",
+   "invoice_number": "2026/927",
+   "date": "2026-04-28",
+   "net": 305000,
+   "vat_rate": 0,
+   "vat_amount": 0,
+   "gross": 305000
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 30,
+  "text": "Zöld Híd Bt.\nInvoice no. 2026/516\nDate: 2026-02-25\nNet: 687.000 Ft\nVAT 27%: 185.490 Ft\nTotal: 872.490 Ft",
+  "truth": {
+   "supplier": "Zöld Híd Bt.",
+   "invoice_number": "2026/516",
+   "date": "2026-02-25",
+   "net": 687000,
+   "vat_rate": 27,
+   "vat_amount": 185490,
+   "gross": 872490
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 31,
+  "text": "Nova Studio Kft.\nInvoice no. 2026/371\nDate: 2026-03-13\nNet: 430.000 Ft\nVAT 27%: 116.100 Ft\nTotal: 546.100 Ft",
+  "truth": {
+   "supplier": "Nova Studio Kft.",
+   "invoice_number": "2026/371",
+   "date": "2026-03-13",
+   "net": 430000,
+   "vat_rate": 27,
+   "vat_amount": 116100,
+   "gross": 546100
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 32,
+  "text": "SZÁMLA / Zöld Híd Bt.\nSzámlaszám: 2026/159\nKelt: 07.03.2026\nNettó: HUF 733,000\nÁFA (0%): HUF 0\nBruttó végösszeg: HUF 734,000",
+  "truth": {
+   "supplier": "Zöld Híd Bt.",
+   "invoice_number": "2026/159",
+   "date": "2026-03-07",
+   "net": 733000,
+   "vat_rate": 0,
+   "vat_amount": 0,
+   "gross": 734000
+  },
+  "arithmetic_ok": false
+ },
+ {
+  "id": 33,
+  "text": "Nova Studio Kft.\nInvoice no. 2026/614\nDate: January 2, 2026\nNet: HUF 82,000\nVAT 5%: HUF 4,100\nTotal: HUF 86,100",
+  "truth": {
+   "supplier": "Nova Studio Kft.",
+   "invoice_number": "2026/614",
+   "date": "2026-01-02",
+   "net": 82000,
+   "vat_rate": 5,
+   "vat_amount": 4100,
+   "gross": 86100
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 34,
+  "text": "ACME Kft.\nInvoice no. 2026/791\nDate: March 3, 2026\nNet: 540 000 HUF\nVAT 27%: 145 800 HUF\nTotal: 685 800 HUF",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/791",
+   "date": "2026-03-03",
+   "net": 540000,
+   "vat_rate": 27,
+   "vat_amount": 145800,
+   "gross": 685800
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 35,
+  "text": "SZÁMLA / Nova Studio Kft.\nSzámlaszám: 2026/773\nKelt: 2026-01-20\nNettó: HUF 603,000\nÁFA (18%): HUF 108,540\nBruttó végösszeg: HUF 711,540",
+  "truth": {
+   "supplier": "Nova Studio Kft.",
+   "invoice_number": "2026/773",
+   "date": "2026-01-20",
+   "net": 603000,
+   "vat_rate": 18,
+   "vat_amount": 108540,
+   "gross": 711540
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 36,
+  "text": "Duna Logisztika Zrt.\nInvoice no. 2026/344\nDate: April 22, 2026\nNet: 343.000 Ft\nVAT 5%: 17.150 Ft\nTotal: 360.150 Ft",
+  "truth": {
+   "supplier": "Duna Logisztika Zrt.",
+   "invoice_number": "2026/344",
+   "date": "2026-04-22",
+   "net": 343000,
+   "vat_rate": 5,
+   "vat_amount": 17150,
+   "gross": 360150
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 37,
+  "text": "SZÁMLA / ACME Kft.\nSzámlaszám: 2026/569\nKelt: 2026-08-11\nNettó: HUF 707,000\nÁFA (5%): HUF 35,350\nBruttó végösszeg: HUF 742,350",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/569",
+   "date": "2026-08-11",
+   "net": 707000,
+   "vat_rate": 5,
+   "vat_amount": 35350,
+   "gross": 742350
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 38,
+  "text": "SZÁMLA / Duna Logisztika Zrt.\nSzámlaszám: 2026/235\nKelt: September 7, 2026\nNettó: 122.000 Ft\nÁFA (27%): 32.940 Ft\nBruttó végösszeg: 154.940 Ft",
+  "truth": {
+   "supplier": "Duna Logisztika Zrt.",
+   "invoice_number": "2026/235",
+   "date": "2026-09-07",
+   "net": 122000,
+   "vat_rate": 27,
+   "vat_amount": 32940,
+   "gross": 154940
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 39,
+  "text": "SZÁMLA / Pannon Print Kft.\nSzámlaszám: 2026/820\nKelt: 06.05.2026\nNettó: 270.000 Ft\nÁFA (5%): 13.500 Ft\nBruttó végösszeg: 283.500 Ft",
+  "truth": {
+   "supplier": "Pannon Print Kft.",
+   "invoice_number": "2026/820",
+   "date": "2026-05-06",
+   "net": 270000,
+   "vat_rate": 5,
+   "vat_amount": 13500,
+   "gross": 283500
+  },
+  "arithmetic_ok": true
+ },
+ {
+  "id": 40,
+  "text": "ACME Kft.\nInvoice no. 2026/999\nDate: September 10, 2026\nNet: 846 000 HUF\nVAT 27%: 228 420 HUF\nTotal: 1 075 420 HUF",
+  "truth": {
+   "supplier": "ACME Kft.",
+   "invoice_number": "2026/999",
+   "date": "2026-09-10",
+   "net": 846000,
+   "vat_rate": 27,
+   "vat_amount": 228420,
+   "gross": 1075420
+  },
+  "arithmetic_ok": false
+ }
+]
